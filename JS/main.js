@@ -15,7 +15,7 @@ btn_prev.onclick = function () {
 
 btn_next.onclick = function () {
     images[i].className = "";
-    i = i++;
+    i = i + 1;
     if (i >= images.length) {
         i = 0;
     }
